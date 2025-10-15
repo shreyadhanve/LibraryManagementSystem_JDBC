@@ -1,0 +1,20 @@
+# Compiled class files
+*.class
+bin/
+build/
+# IDE and system files
+.vscode/
+.idea/
+*.iml
+Thumbs.db
+.DS_Store
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment or config files
+.env
+*.env
+
+# If you don't want to push JARs, uncomment next line
+# lib/
