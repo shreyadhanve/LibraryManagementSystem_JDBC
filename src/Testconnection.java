@@ -5,7 +5,7 @@ public class Testconnection {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/librarydb"; // your DB name
         String user = "root";                                  // your MySQL username
-        String password = "CodeKh@123";                     // your MySQL password
+        String password = System.getenv("DB_PASSWORD");                     // your MySQL password
 
         try {
             // Load MySQL JDBC Driver
